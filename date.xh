@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read -p "create a file" TOUCH
+
+if [ $TOUCH = file ]
+ then
+ echo "create a file"
+else 
+ echo "dont create"
+fi
